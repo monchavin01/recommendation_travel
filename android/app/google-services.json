@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "309378683463",
+    "firebase_url": "https://triprecomend.firebaseio.com",
+    "project_id": "triprecomend",
+    "storage_bucket": "triprecomend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309378683463:android:f3806b7e82fb7eb50d9762",
+        "android_client_info": {
+          "package_name": "com.example.recomander_travel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309378683463-2uebcdh5ha3k2ogf502bp8to260l9laf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZFEL2Wq5gJF2P6C694UV9O9-X7V27QHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309378683463-2uebcdh5ha3k2ogf502bp8to260l9laf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "309378683463-vu81ke8etoqiikl457480pec8ai4q32h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.recomanderTravel"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
