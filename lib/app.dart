@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'screen/home/home_page.dart';
+import 'main_screen.dart';
 
 
 class MyApp extends StatefulWidget {
@@ -18,7 +18,7 @@ class _MyAppState extends State<MyApp> {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: MainScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
