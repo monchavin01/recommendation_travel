@@ -44,6 +44,7 @@ class _MainScreenState extends State<MainScreen> {
         currentIndex: _currentIndex,
         selectedItemColor: AppColors.primary,
         onTap: _onItemTapped,
+        elevation: 4.0,
       ),
     );
   }
