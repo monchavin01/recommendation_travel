@@ -4,7 +4,7 @@ import 'constants/colors.dart';
 final themeData = ThemeData(
     primaryColor: AppColors.primary,
     errorColor: AppColors.errorColor,
-    // primaryColorDark: AppColors.black,
+    primaryColorDark: Colors.black,
     // textTheme: GoogleFonts.kanitTextTheme(),
     // disabledColor: AppColors.disabled,
     // shadowColor: AppColors.baseGreyColor,
