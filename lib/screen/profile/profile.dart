@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:recomander_travel/constants/colors.dart';
+import 'package:recomander_travel/rotes.dart';
+import 'package:recomander_travel/screen/create_trip/create_trip.dart';
 import 'package:recomander_travel/screen/home/home_page.dart';
 import 'package:recomander_travel/theme.dart';
 
@@ -147,7 +149,7 @@ class _ProfilePageState extends State<ProfilePage>
           margin: EdgeInsets.only(right: 10),
           child: FloatingActionButton(
             onPressed: () {
-              // Add your onPressed code here!
+              Get.toNamed(Routes.createTrip);
             },
             child: Icon(Icons.add, size: 40),
             elevation: 2,
