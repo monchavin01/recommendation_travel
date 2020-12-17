@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   color: AppColors.errorColor,
                   child: Column(
-                    children: <Widget>[
+                    children: [
                       Container(
                         width: Get.width / 1.05,
                         height: Get.width / 1.5,
@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   color: AppColors.errorColor,
                   child: Column(
-                    children: <Widget>[
+                    children: [
                       Container(
                         width: Get.width / 1.05,
                         height: Get.width / 1.5,
